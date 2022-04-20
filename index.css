@@ -104,8 +104,7 @@ body{
     border: 1px solid #27c2b2;
     width: 50%;
     margin: 0 auto;
-    padding-right: 20px;
-    padding-right: 1px;
+    margin-bottom: -1px;
 }
 .submit{
     border: px solid #27c2b2;
@@ -113,15 +112,93 @@ body{
     display: inline-block;
     margin-left: 30px; 
     margin-right: 0px;  
+    
 }
 .submit_button{
     padding: 10px;
     background-color: #1e776e;
     border: 1px solid #1e776e;
     color: #fff;
+    cursor: pointer;
 }
 .wrap{
     border: 1px solid #27c2b2;
     background-color: #27c2b2;
     margin-top: 10px;
+}
+
+.cumulative{
+    border: 1px solid #2fc8b8;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    background: #1e776e;
+    margin: 0 150px;
+    border-radius: 8px 8px 0 0;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+.cumulative_numbers{
+    font-size: 96px;
+    color: #2fc8b8;
+    margin-top: 20px;
+}
+.cumulative_text{
+    border: px solid black;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+
+.shadow{
+        border: px solid #333;
+        width: 50%;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
+        background: #fff;
+        height: 40vh;
+        margin: 0 auto;
+        font-family: "Roboto";
+        margin-bottom: 5px;
+        color: #000;
+        
+}
+.shadow_paragraph{
+    float: left;
+    border: px solid black;
+    margin-left: 10px;
+}
+.zero{
+    border: px solid black;
+    color: red;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 40px;
+    color: #2fc8b8;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.test{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding: 15px;
+}
+.texts{
+    font-size: 16px;
+    color: #888;
+    padding: 5px;
 }
