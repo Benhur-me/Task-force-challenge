@@ -41,3 +41,87 @@ body{
     padding-left: 55px;
     
 }
+
+
+/* SECOND DIV */
+
+.second_div{
+    border: 1px solid #27c2b2;
+    text-align: center;
+    background-color: #27c2b2;
+    margin-bottom: -10px;
+}
+.second_div .title{
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue";
+    font-size: 72px;
+    color: #fff;
+}
+.sub_title{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #fff;
+    border: px solid black;
+}
+
+/* THIRD DIV */
+
+.input-icons i {
+    position: absolute;
+}
+.input-icons {
+    width: 20%;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 25%;
+    padding: 10px;
+    padding-bottom: 3px;
+}
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.flag{
+    width: 30px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 5px;
+}
+.calendar{
+    width: 20%;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.input_container{
+    border: 1px solid #27c2b2;
+    width: 50%;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-right: 1px;
+}
+.submit{
+    border: px solid #27c2b2;
+    width: 10%;
+    display: inline-block;
+    margin-left: 30px; 
+    margin-right: 0px;  
+}
+.submit_button{
+    padding: 10px;
+    background-color: #1e776e;
+    border: 1px solid #1e776e;
+    color: #fff;
+}
+.wrap{
+    border: 1px solid #27c2b2;
+    background-color: #27c2b2;
+    margin-top: 10px;
+}
