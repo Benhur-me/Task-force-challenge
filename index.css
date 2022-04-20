@@ -166,12 +166,13 @@ body{
         justify-content: center;
         align-items: center;
         flex: 1 1;
-        background: #fff;
+        background: #fcf9f3;
         height: 40vh;
         margin: 0 auto;
         font-family: "Roboto";
         margin-bottom: 5px;
         color: #000;
+        border-radius: 0px 0px 15px 15px;
         
 }
 .shadow_paragraph{
@@ -201,4 +202,33 @@ body{
     font-size: 16px;
     color: #888;
     padding: 5px;
+}
+.continents{
+    border: px solid black;
+    text-align: center;
+
+    margin: 100px 20px 50px;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    color: #000;
+}
+.north_img{
+    width: 500px;
+    height: 50vh;
+}
+.asia_img{
+    width: 600px;
+    height: 50vh;
+}
+.image1{
+    display: inline-block;
+    margin-left: 50px;
+    border: px solid black;
+}
+.image2{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: px solid black;
 }
